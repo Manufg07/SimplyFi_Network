@@ -91,7 +91,7 @@ sleep 1
 
 echo "—---------------package chaincode—-------------"
 
-peer lifecycle chaincode package simplyfi.tar.gz --path ${PWD}/../Chaincode/chaincode-javascript --lang node --label simplyfi_1.0
+peer lifecycle chaincode package simplyfi.tar.gz --path ${PWD}/../Chaincode/Asset --lang node --label simplyfi_1.0
 sleep 1
 
 echo "—---------------install chaincode in Org1 peer—-------------"
